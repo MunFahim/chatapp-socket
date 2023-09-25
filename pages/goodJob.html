@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Job</title>
+</head>
+<body>
+    
+    <div class="center-div">
+        <div class="animate">
+            Your Info Has Been Submitted
+        </div>
+    </div>
+    <style>
+        body{
+            margin: 0;
+        }
+        .center-div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+    
+        }
+        @keyframes change-color {
+        100%{
+            rotate: 360deg;
+        }
+        }
+        .animate{
+            font-size: 120px;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-name: change-color;
+        }
+    </style>
+</body>
+</html>
